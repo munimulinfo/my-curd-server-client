@@ -22,7 +22,7 @@ console.log("delet", _id);
 
     return (
         <div>
-            <h1>{user.length}</h1>
+//             <h1>{user.length}</h1>
             {
                 user?.map(man => <h5 key={man?._id}>{man?.name} {man?.email} {man?._id}
                  <Link to={`/update/${man?._id}`}><button>update</button></Link>
